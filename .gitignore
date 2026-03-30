@@ -1,0 +1,13 @@
+# Ignore EVERYTHING
+*
+
+# Allow git control files
+!.gitignore
+!.gitattributes
+!.github/
+
+# ---- Allow selected ----
+
+# ---- Not Allow selected ----
+
+yandex*

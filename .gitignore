@@ -1,13 +1,29 @@
-# Ignore EVERYTHING
+# Ignore everything by default
 *
 
-# Allow git control files
+# Git control files
 !.gitignore
 !.gitattributes
 !.github/
 
-# ---- Allow selected ----
+# ---- Website files (allow-list) ----
+!CNAME
+!index.html
+!404.html
+!robots.txt
+!sitemap.xml
 
-# ---- Not Allow selected ----
+!css/
+!css/*.css
 
-yandex*
+!js/
+!js/*.js
+
+!assets/
+!assets/favicon.svg
+!assets/favicon.ico
+!assets/apple-touch-icon.png
+!assets/preview.png
+
+# ---- Not part of the website ----
+# README.md, AUDIT.md, yandex*.html, scratch/test files stay local
